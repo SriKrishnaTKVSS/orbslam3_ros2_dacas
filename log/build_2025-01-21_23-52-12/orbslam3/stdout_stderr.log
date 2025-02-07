@@ -1,0 +1,722 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[35m[1mConsolidate compiler generated dependencies of target mono_realsense_D435i[0m
+[35m[1mConsolidate compiler generated dependencies of target mono[0m
+[  7%] [32mBuilding CXX object CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o[0m
+[ 28%] Built target stereo
+[ 50%] Built target mono
+[ 71%] Built target rgbd
+[ 92%] Built target stereo-inertial
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:30[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                          [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+      |                                      [31m[K-[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Atlas.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | ol matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+      |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+      |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+      |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+      |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+      |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Atlas.h:27[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  102 |         const float [01;35m[Kprecision[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Atlas.h:27[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Atlas.h:27[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:35[m[K:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  102 |         const float [01;35m[Kprecision[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  102 |         const float [01;35m[Kprecision[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/Krishna_pybind_orsbslam3/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:[m[K In function ‘[01m[Kvoid exit_loop_handler(int)[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:41:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 | void exit_loop_handler([01;35m[Kint s[m[K){
+      |                        [01;35m[K~~~~^[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:234:51:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime_Start_Process[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  234 |             std::chrono::steady_clock::time_point [01;35m[Ktime_Start_Process[m[K = std::chrono::steady_clock::now();
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:117:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  117 |     double [01;35m[Koffset[m[K = 0; // ms
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:216:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_resize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  216 |     double [01;35m[Kt_resize[m[K = 0.f;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:217:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_track[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  217 |     double [01;35m[Kt_track[m[K = 0.f;
+      |            [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable mono_realsense_D435i[0m
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::pipeline_profile rs2::pipeline::start<main::{lambda(rs2::frame const&)#1}>(rs2::config const&, main::{lambda(rs2::frame const&)#1})':
+mono_realsense_D435i.cc:(.text+0x1730): undefined reference to `rs2_pipeline_start_with_config_and_callback_cpp'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text+0x173e): undefined reference to `rs2_delete_pipeline_profile'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::error::error(rs2_error*)':
+mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x32): undefined reference to `rs2_get_error_message'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x77): undefined reference to `rs2_get_failed_function'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x9e): undefined reference to `rs2_get_failed_function'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x101): undefined reference to `rs2_get_failed_args'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x128): undefined reference to `rs2_get_failed_args'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x18b): undefined reference to `rs2_get_librealsense_exception_type'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x19e): undefined reference to `rs2_free_error'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::error::handle(rs2_error*)':
+mono_realsense_D435i.cc:(.text._ZN3rs25error6handleEP9rs2_error[_ZN3rs25error6handleEP9rs2_error]+0x26): undefined reference to `rs2_get_librealsense_exception_type'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::stream_profile::stream_profile(rs2_stream_profile const*)':
+mono_realsense_D435i.cc:(.text._ZN3rs214stream_profileC2EPK18rs2_stream_profile[_ZN3rs214stream_profileC5EPK18rs2_stream_profile]+0xc2): undefined reference to `rs2_get_stream_profile_data'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs214stream_profileC2EPK18rs2_stream_profile[_ZN3rs214stream_profileC5EPK18rs2_stream_profile]+0xe8): undefined reference to `rs2_is_stream_profile_default'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::video_stream_profile::video_stream_profile(rs2::stream_profile const&)':
+mono_realsense_D435i.cc:(.text._ZN3rs220video_stream_profileC2ERKNS_14stream_profileE[_ZN3rs220video_stream_profileC5ERKNS_14stream_profileE]+0x74): undefined reference to `rs2_stream_profile_is'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs220video_stream_profileC2ERKNS_14stream_profileE[_ZN3rs220video_stream_profileC5ERKNS_14stream_profileE]+0xdd): undefined reference to `rs2_get_video_stream_resolution'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::video_stream_profile::get_intrinsics() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs220video_stream_profile14get_intrinsicsEv[_ZNK3rs220video_stream_profile14get_intrinsicsEv]+0x41): undefined reference to `rs2_get_video_stream_intrinsics'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::~frame()':
+mono_realsense_D435i.cc:(.text._ZN3rs25frameD2Ev[_ZN3rs25frameD5Ev]+0x27): undefined reference to `rs2_release_frame'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::get_timestamp() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame13get_timestampEv[_ZNK3rs25frame13get_timestampEv]+0x39): undefined reference to `rs2_get_frame_timestamp'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::get_data() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame8get_dataEv[_ZNK3rs25frame8get_dataEv]+0x39): undefined reference to `rs2_get_frame_data'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::get_profile() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame11get_profileEv[_ZNK3rs25frame11get_profileEv]+0x3d): undefined reference to `rs2_get_frame_stream_profile'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::add_ref() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame7add_refEv[_ZNK3rs25frame7add_refEv]+0x39): undefined reference to `rs2_frame_add_ref'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::reset()':
+mono_realsense_D435i.cc:(.text._ZN3rs25frame5resetEv[_ZN3rs25frame5resetEv]+0x27): undefined reference to `rs2_release_frame'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::video_frame::video_frame(rs2::frame const&)':
+mono_realsense_D435i.cc:(.text._ZN3rs211video_frameC2ERKNS_5frameE[_ZN3rs211video_frameC5ERKNS_5frameE]+0x71): undefined reference to `rs2_is_frame_extendable_to'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frameset::frameset(rs2::frame const&)':
+mono_realsense_D435i.cc:(.text._ZN3rs28framesetC2ERKNS_5frameE[_ZN3rs28framesetC5ERKNS_5frameE]+0x7d): undefined reference to `rs2_is_frame_extendable_to'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs28framesetC2ERKNS_5frameE[_ZN3rs28framesetC5ERKNS_5frameE]+0xe6): undefined reference to `rs2_embedded_frames_count'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::supports(rs2_option) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options8supportsE10rs2_option[_ZNK3rs27options8supportsE10rs2_option]+0x3f): undefined reference to `rs2_supports_option'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::get_option_description(rs2_option) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options22get_option_descriptionE10rs2_option[_ZNK3rs27options22get_option_descriptionE10rs2_option]+0x3f): undefined reference to `rs2_get_option_description'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::get_option(rs2_option) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options10get_optionE10rs2_option[_ZNK3rs27options10get_optionE10rs2_option]+0x3f): undefined reference to `rs2_get_option'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::set_option(rs2_option, float) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options10set_optionE10rs2_optionf[_ZNK3rs27options10set_optionE10rs2_optionf]+0x4b): undefined reference to `rs2_set_option'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::sensor::supports(rs2_camera_info) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs26sensor8supportsE15rs2_camera_info[_ZNK3rs26sensor8supportsE15rs2_camera_info]+0x4a): undefined reference to `rs2_supports_sensor_info'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::device::query_sensors() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0x56): undefined reference to `rs2_query_sensors'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0x64): undefined reference to `rs2_delete_sensor_list'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0x99): undefined reference to `rs2_get_sensors_count'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0xe3): undefined reference to `rs2_create_sensor'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0xf1): undefined reference to `rs2_delete_sensor'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::device_list::operator[](unsigned int) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs211device_listixEj[_ZNK3rs211device_listixEj]+0x4e): undefined reference to `rs2_create_device'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs211device_listixEj[_ZNK3rs211device_listixEj]+0x5c): undefined reference to `rs2_delete_device'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::device_list::size() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs211device_list4sizeEv[_ZNK3rs211device_list4sizeEv]+0x41): undefined reference to `rs2_get_device_count'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::context::context(char const*)':
+mono_realsense_D435i.cc:(.text._ZN3rs27contextC2EPKc[_ZN3rs27contextC5EPKc]+0x49): undefined reference to `rs2_create_context_ex'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs27contextC2EPKc[_ZN3rs27contextC5EPKc]+0x57): undefined reference to `rs2_delete_context'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::context::query_devices() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27context13query_devicesEv[_ZNK3rs27context13query_devicesEv]+0x46): undefined reference to `rs2_query_devices'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs27context13query_devicesEv[_ZNK3rs27context13query_devicesEv]+0x54): undefined reference to `rs2_delete_device_list'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::pipeline_profile::get_streams() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0x52): undefined reference to `rs2_pipeline_profile_get_streams'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0x60): undefined reference to `rs2_delete_stream_profiles_list'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0x95): undefined reference to `rs2_get_stream_profiles_count'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0xcd): undefined reference to `rs2_get_stream_profile'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::config::config()':
+mono_realsense_D435i.cc:(.text._ZN3rs26configC2Ev[_ZN3rs26configC5Ev]+0x3c): undefined reference to `rs2_create_config'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs26configC2Ev[_ZN3rs26configC5Ev]+0x4a): undefined reference to `rs2_delete_config'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::config::enable_stream(rs2_stream, int, int, int, rs2_format, int)':
+mono_realsense_D435i.cc:(.text._ZN3rs26config13enable_streamE10rs2_streamiii10rs2_formati[_ZN3rs26config13enable_streamE10rs2_streamiii10rs2_formati]+0x64): undefined reference to `rs2_config_enable_stream'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::pipeline::pipeline(rs2::context)':
+mono_realsense_D435i.cc:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x52): undefined reference to `rs2_create_pipeline'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x60): undefined reference to `rs2_delete_pipeline'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `operator<<(std::ostream&, rs2_distortion)':
+mono_realsense_D435i.cc:(.text._ZlsRSo14rs2_distortion[_ZlsRSo14rs2_distortion]+0x19): undefined reference to `rs2_distortion_to_string'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `operator<<(std::ostream&, rs2_option)':
+mono_realsense_D435i.cc:(.text._ZlsRSo10rs2_option[_ZlsRSo10rs2_option]+0x19): undefined reference to `rs2_option_to_string'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `void rs2::frameset::foreach_rs<rs2::frameset::first_or_default(rs2_stream, rs2_format) const::{lambda(rs2::frame)#1}>(rs2::frameset::first_or_default(rs2_stream, rs2_format) const::{lambda(rs2::frame)#1}) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs28frameset10foreach_rsIZNKS0_16first_or_defaultE10rs2_stream10rs2_formatEUlNS_5frameEE_EEvT_[_ZNK3rs28frameset10foreach_rsIZNKS0_16first_or_defaultE10rs2_stream10rs2_formatEUlNS_5frameEE_EEvT_]+0x78): undefined reference to `rs2_extract_frame'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `void rs2::frameset::foreach_rs<rs2::frameset::get_infrared_frame(unsigned long) const::{lambda(rs2::frame const&)#1}>(rs2::frameset::get_infrared_frame(unsigned long) const::{lambda(rs2::frame const&)#1}) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs28frameset10foreach_rsIZNKS0_18get_infrared_frameEmEUlRKNS_5frameEE_EEvT_[_ZNK3rs28frameset10foreach_rsIZNKS0_18get_infrared_frameEmEUlRKNS_5frameEE_EEvT_]+0x78): undefined reference to `rs2_extract_frame'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mono_realsense_D435i.dir/build.make:200: mono_realsense_D435i] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/mono_realsense_D435i.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

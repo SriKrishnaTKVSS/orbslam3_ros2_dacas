@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:26 (find_package):
+  find_package called with invalid argument "4.*"
+
+[0m
+gmake: *** [Makefile:498: cmake_check_build_system] Error 1

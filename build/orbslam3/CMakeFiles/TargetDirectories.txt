@@ -1,0 +1,14 @@
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/uninstall.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/orbslam3_uninstall.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/mono.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/realsense_publisher.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/rgbd.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/stereo.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/stereo-inertial.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/test.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/edit_cache.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/rebuild_cache.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/list_install_components.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/install.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/install/local.dir
+/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/CMakeFiles/install/strip.dir

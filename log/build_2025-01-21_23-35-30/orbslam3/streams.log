@@ -1,0 +1,36 @@
+[0.006s] Invoking command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.121s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.139s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.170s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.237s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.262s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.277s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.281s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.288s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.0") 
+[0.336s] -- Configuring done
+[0.355s] -- Generating done
+[0.361s] -- Build files have been written to: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.380s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.384s] [  7%] [32mBuilding CXX object CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o[0m
+[0.393s] [ 28%] Built target rgbd
+[0.394s] [ 50%] Built target stereo-inertial
+[0.395s] [ 78%] Built target mono
+[0.395s] [ 92%] Built target stereo
+[0.411s] [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:30:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: No such file or directory
+[0.411s]    30 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+[0.411s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.411s] compilation terminated.
+[0.419s] gmake[2]: *** [CMakeFiles/mono_realsense_D435i.dir/build.make:76: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o] Error 1
+[0.419s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/mono_realsense_D435i.dir/all] Error 2
+[0.420s] gmake: *** [Makefile:146: all] Error 2
+[0.421s] Invoked command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20

@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target mono[0m
+[ 14%] Built target realsense_publisher
+[ 35%] Built target stereo
+[ 57%] Built target stereo-inertial
+[ 78%] Built target rgbd
+[ 85%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m

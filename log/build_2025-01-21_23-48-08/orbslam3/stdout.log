@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target mono_realsense_D435i[0m
+[ 35%] Built target mono
+[ 42%] Built target rgbd
+[ 64%] Built target stereo-inertial
+[ 71%] [32mBuilding CXX object CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o[0m
+[ 92%] Built target stereo

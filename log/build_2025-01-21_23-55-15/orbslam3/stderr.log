@@ -1,0 +1,90 @@
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::pipeline_profile rs2::pipeline::start<main::{lambda(rs2::frame const&)#1}>(rs2::config const&, main::{lambda(rs2::frame const&)#1})':
+mono_realsense_D435i.cc:(.text+0x1730): undefined reference to `rs2_pipeline_start_with_config_and_callback_cpp'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text+0x173e): undefined reference to `rs2_delete_pipeline_profile'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::error::error(rs2_error*)':
+mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x32): undefined reference to `rs2_get_error_message'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x77): undefined reference to `rs2_get_failed_function'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x9e): undefined reference to `rs2_get_failed_function'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x101): undefined reference to `rs2_get_failed_args'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x128): undefined reference to `rs2_get_failed_args'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x18b): undefined reference to `rs2_get_librealsense_exception_type'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x19e): undefined reference to `rs2_free_error'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::error::handle(rs2_error*)':
+mono_realsense_D435i.cc:(.text._ZN3rs25error6handleEP9rs2_error[_ZN3rs25error6handleEP9rs2_error]+0x26): undefined reference to `rs2_get_librealsense_exception_type'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::stream_profile::stream_profile(rs2_stream_profile const*)':
+mono_realsense_D435i.cc:(.text._ZN3rs214stream_profileC2EPK18rs2_stream_profile[_ZN3rs214stream_profileC5EPK18rs2_stream_profile]+0xc2): undefined reference to `rs2_get_stream_profile_data'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs214stream_profileC2EPK18rs2_stream_profile[_ZN3rs214stream_profileC5EPK18rs2_stream_profile]+0xe8): undefined reference to `rs2_is_stream_profile_default'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::video_stream_profile::video_stream_profile(rs2::stream_profile const&)':
+mono_realsense_D435i.cc:(.text._ZN3rs220video_stream_profileC2ERKNS_14stream_profileE[_ZN3rs220video_stream_profileC5ERKNS_14stream_profileE]+0x74): undefined reference to `rs2_stream_profile_is'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs220video_stream_profileC2ERKNS_14stream_profileE[_ZN3rs220video_stream_profileC5ERKNS_14stream_profileE]+0xdd): undefined reference to `rs2_get_video_stream_resolution'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::video_stream_profile::get_intrinsics() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs220video_stream_profile14get_intrinsicsEv[_ZNK3rs220video_stream_profile14get_intrinsicsEv]+0x41): undefined reference to `rs2_get_video_stream_intrinsics'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::~frame()':
+mono_realsense_D435i.cc:(.text._ZN3rs25frameD2Ev[_ZN3rs25frameD5Ev]+0x27): undefined reference to `rs2_release_frame'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::get_timestamp() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame13get_timestampEv[_ZNK3rs25frame13get_timestampEv]+0x39): undefined reference to `rs2_get_frame_timestamp'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::get_data() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame8get_dataEv[_ZNK3rs25frame8get_dataEv]+0x39): undefined reference to `rs2_get_frame_data'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::get_profile() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame11get_profileEv[_ZNK3rs25frame11get_profileEv]+0x3d): undefined reference to `rs2_get_frame_stream_profile'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::add_ref() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs25frame7add_refEv[_ZNK3rs25frame7add_refEv]+0x39): undefined reference to `rs2_frame_add_ref'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frame::reset()':
+mono_realsense_D435i.cc:(.text._ZN3rs25frame5resetEv[_ZN3rs25frame5resetEv]+0x27): undefined reference to `rs2_release_frame'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::video_frame::video_frame(rs2::frame const&)':
+mono_realsense_D435i.cc:(.text._ZN3rs211video_frameC2ERKNS_5frameE[_ZN3rs211video_frameC5ERKNS_5frameE]+0x71): undefined reference to `rs2_is_frame_extendable_to'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::frameset::frameset(rs2::frame const&)':
+mono_realsense_D435i.cc:(.text._ZN3rs28framesetC2ERKNS_5frameE[_ZN3rs28framesetC5ERKNS_5frameE]+0x7d): undefined reference to `rs2_is_frame_extendable_to'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs28framesetC2ERKNS_5frameE[_ZN3rs28framesetC5ERKNS_5frameE]+0xe6): undefined reference to `rs2_embedded_frames_count'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::supports(rs2_option) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options8supportsE10rs2_option[_ZNK3rs27options8supportsE10rs2_option]+0x3f): undefined reference to `rs2_supports_option'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::get_option_description(rs2_option) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options22get_option_descriptionE10rs2_option[_ZNK3rs27options22get_option_descriptionE10rs2_option]+0x3f): undefined reference to `rs2_get_option_description'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::get_option(rs2_option) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options10get_optionE10rs2_option[_ZNK3rs27options10get_optionE10rs2_option]+0x3f): undefined reference to `rs2_get_option'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::options::set_option(rs2_option, float) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27options10set_optionE10rs2_optionf[_ZNK3rs27options10set_optionE10rs2_optionf]+0x4b): undefined reference to `rs2_set_option'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::sensor::supports(rs2_camera_info) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs26sensor8supportsE15rs2_camera_info[_ZNK3rs26sensor8supportsE15rs2_camera_info]+0x4a): undefined reference to `rs2_supports_sensor_info'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::device::query_sensors() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0x56): undefined reference to `rs2_query_sensors'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0x64): undefined reference to `rs2_delete_sensor_list'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0x99): undefined reference to `rs2_get_sensors_count'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0xe3): undefined reference to `rs2_create_sensor'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs26device13query_sensorsEv[_ZNK3rs26device13query_sensorsEv]+0xf1): undefined reference to `rs2_delete_sensor'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::device_list::operator[](unsigned int) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs211device_listixEj[_ZNK3rs211device_listixEj]+0x4e): undefined reference to `rs2_create_device'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs211device_listixEj[_ZNK3rs211device_listixEj]+0x5c): undefined reference to `rs2_delete_device'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::device_list::size() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs211device_list4sizeEv[_ZNK3rs211device_list4sizeEv]+0x41): undefined reference to `rs2_get_device_count'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::context::context(char const*)':
+mono_realsense_D435i.cc:(.text._ZN3rs27contextC2EPKc[_ZN3rs27contextC5EPKc]+0x49): undefined reference to `rs2_create_context_ex'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs27contextC2EPKc[_ZN3rs27contextC5EPKc]+0x57): undefined reference to `rs2_delete_context'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::context::query_devices() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs27context13query_devicesEv[_ZNK3rs27context13query_devicesEv]+0x46): undefined reference to `rs2_query_devices'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs27context13query_devicesEv[_ZNK3rs27context13query_devicesEv]+0x54): undefined reference to `rs2_delete_device_list'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::pipeline_profile::get_streams() const':
+mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0x52): undefined reference to `rs2_pipeline_profile_get_streams'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0x60): undefined reference to `rs2_delete_stream_profiles_list'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0x95): undefined reference to `rs2_get_stream_profiles_count'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZNK3rs216pipeline_profile11get_streamsEv[_ZNK3rs216pipeline_profile11get_streamsEv]+0xcd): undefined reference to `rs2_get_stream_profile'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::config::config()':
+mono_realsense_D435i.cc:(.text._ZN3rs26configC2Ev[_ZN3rs26configC5Ev]+0x3c): undefined reference to `rs2_create_config'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs26configC2Ev[_ZN3rs26configC5Ev]+0x4a): undefined reference to `rs2_delete_config'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::config::enable_stream(rs2_stream, int, int, int, rs2_format, int)':
+mono_realsense_D435i.cc:(.text._ZN3rs26config13enable_streamE10rs2_streamiii10rs2_formati[_ZN3rs26config13enable_streamE10rs2_streamiii10rs2_formati]+0x64): undefined reference to `rs2_config_enable_stream'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `rs2::pipeline::pipeline(rs2::context)':
+mono_realsense_D435i.cc:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x52): undefined reference to `rs2_create_pipeline'
+/usr/bin/ld: mono_realsense_D435i.cc:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x60): undefined reference to `rs2_delete_pipeline'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `operator<<(std::ostream&, rs2_distortion)':
+mono_realsense_D435i.cc:(.text._ZlsRSo14rs2_distortion[_ZlsRSo14rs2_distortion]+0x19): undefined reference to `rs2_distortion_to_string'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `operator<<(std::ostream&, rs2_option)':
+mono_realsense_D435i.cc:(.text._ZlsRSo10rs2_option[_ZlsRSo10rs2_option]+0x19): undefined reference to `rs2_option_to_string'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `void rs2::frameset::foreach_rs<rs2::frameset::first_or_default(rs2_stream, rs2_format) const::{lambda(rs2::frame)#1}>(rs2::frameset::first_or_default(rs2_stream, rs2_format) const::{lambda(rs2::frame)#1}) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs28frameset10foreach_rsIZNKS0_16first_or_defaultE10rs2_stream10rs2_formatEUlNS_5frameEE_EEvT_[_ZNK3rs28frameset10foreach_rsIZNKS0_16first_or_defaultE10rs2_stream10rs2_formatEUlNS_5frameEE_EEvT_]+0x78): undefined reference to `rs2_extract_frame'
+/usr/bin/ld: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o: in function `void rs2::frameset::foreach_rs<rs2::frameset::get_infrared_frame(unsigned long) const::{lambda(rs2::frame const&)#1}>(rs2::frameset::get_infrared_frame(unsigned long) const::{lambda(rs2::frame const&)#1}) const':
+mono_realsense_D435i.cc:(.text._ZNK3rs28frameset10foreach_rsIZNKS0_18get_infrared_frameEmEUlRKNS_5frameEE_EEvT_[_ZNK3rs28frameset10foreach_rsIZNKS0_18get_infrared_frameEmEUlRKNS_5frameEE_EEvT_]+0x78): undefined reference to `rs2_extract_frame'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mono_realsense_D435i.dir/build.make:200: mono_realsense_D435i] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/mono_realsense_D435i.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

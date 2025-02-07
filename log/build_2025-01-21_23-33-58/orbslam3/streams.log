@@ -1,0 +1,15 @@
+[0.006s] Invoking command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20
+[0.037s] [  7%] [32mBuilding CXX object CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[0.048s] [ 28%] Built target rgbd
+[0.050s] [ 50%] Built target stereo-inertial
+[0.054s] [ 71%] Built target mono
+[0.065s] [ 92%] Built target stereo
+[0.066s] [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:30:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: No such file or directory
+[0.066s]    30 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+[0.066s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.066s] compilation terminated.
+[0.074s] gmake[2]: *** [CMakeFiles/mono_realsense_D435i.dir/build.make:76: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o] Error 1
+[0.074s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/mono_realsense_D435i.dir/all] Error 2
+[0.074s] gmake: *** [Makefile:146: all] Error 2
+[0.076s] Invoked command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20

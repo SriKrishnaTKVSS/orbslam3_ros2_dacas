@@ -1,0 +1,5 @@
+[ 21%] Built target rgbd
+[ 35%] Built target realsense_publisher
+[ 42%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[ 64%] Built target stereo
+[ 85%] Built target stereo-inertial

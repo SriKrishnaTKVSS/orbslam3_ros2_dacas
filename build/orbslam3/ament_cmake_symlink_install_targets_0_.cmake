@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3/realsense_publisher" "TARGETS" "realsense_publisher" "DESTINATION" "lib/orbslam3")

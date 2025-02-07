@@ -1,0 +1,15 @@
+[0.007s] Invoking command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.058s] [ 14%] Built target realsense_publisher
+[0.061s] [ 35%] Built target stereo
+[0.062s] [ 57%] Built target stereo-inertial
+[0.064s] [ 78%] Built target rgbd
+[0.068s] [ 85%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[0.717s] [01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kconio.h: No such file or directory
+[0.717s]    10 | #include [01;31m[K<conio.h>[m[K
+[0.717s]       |          [01;31m[K^~~~~~~~~[m[K
+[0.717s] compilation terminated.
+[0.730s] gmake[2]: *** [CMakeFiles/mono.dir/build.make:76: CMakeFiles/mono.dir/src/monocular/mono.cpp.o] Error 1
+[0.731s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/mono.dir/all] Error 2
+[0.731s] gmake: *** [Makefile:146: all] Error 2
+[0.733s] Invoked command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20

@@ -1,0 +1,13 @@
+[  7%] [32mBuilding CXX object CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[ 28%] Built target rgbd
+[ 50%] Built target stereo-inertial
+[ 71%] Built target mono
+[ 92%] Built target stereo
+[01m[K/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/src/monocular/mono_realsense_D435i.cc:30:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: No such file or directory
+   30 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mono_realsense_D435i.dir/build.make:76: CMakeFiles/mono_realsense_D435i.dir/src/monocular/mono_realsense_D435i.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/mono_realsense_D435i.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.084s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.088s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.103s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.105s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.108s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.136s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.136s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.227s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.242s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.246s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.302s] -- Configuring done
+[0.320s] -- Generating done
+[0.326s] -- Build files have been written to: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3
+[0.344s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.344s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[0.344s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[0.361s] [ 25%] Built target rgbd
+[0.361s] [ 50%] Built target stereo-inertial
+[0.361s] [ 75%] Built target mono
+[0.363s] [100%] Built target stereo
+[0.371s] Invoked command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --build /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3 -- -j20 -l20
+[0.380s] Invoking command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --install /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3
+[0.387s] -- Install configuration: ""
+[0.388s] -- Execute custom install script
+[0.388s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/lib/orbslam3/mono
+[0.396s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/lib/orbslam3/rgbd
+[0.409s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/lib/orbslam3/stereo
+[0.426s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/lib/orbslam3/stereo-inertial
+[0.439s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[0.457s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[0.474s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[0.490s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[0.501s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/environment/path.sh
+[0.511s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/environment/path.dsv
+[0.523s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/local_setup.bash
+[0.536s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/local_setup.sh
+[0.547s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/local_setup.zsh
+[0.558s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/local_setup.dsv
+[0.564s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/package.dsv
+[0.570s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[0.581s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[0.595s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[0.610s] -- Symlinking: /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/install/orbslam3/share/orbslam3/package.xml
+[0.625s] Invoked command in '/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/home/srikrishna/Desktop/Projects/scale_est/colcon_ws/install/orbslam3:/home/srikrishna/Projects_ROS/px4_ws/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/px4_msgs:/home/srikrishna/Projects_ROS/ws_xrce_dds_agent/install/microxrcedds_agent:/opt/ros/humble:/home/srikrishna/catkin_ws/devel PS1=(orbslam3_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(orbslam3_ros2) /usr/bin/cmake --install /home/srikrishna/Desktop/Projects/scale_est/colcon_ws/src/orbslam3_ros2/build/orbslam3
