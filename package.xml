@@ -20,6 +20,15 @@
 <exec_depend>rosidl_default_runtime</exec_depend>
 <member_of_group>rosidl_interface_packages</member_of_group>
 
+<!-- Added for python_node -->
+<exec_depend>rclpy</exec_depend>
+<!-- <exec_depend>geometry_msgs</exec_depend> -->
+<exec_depend>scipy</exec_depend>
+<exec_depend>numpy</exec_depend>
+<exec_depend>pandas</exec_depend>
+
+
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>

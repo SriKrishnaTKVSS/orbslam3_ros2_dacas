@@ -105,5 +105,12 @@ install(TARGETS mono rgbd stereo stereo-inertial
 #install(DIRECTORY launch config vocabulary
 #  DESTINATION share/${PROJECT_NAME}/)
 
+# Install the Python script from src/folders1/
+install(PROGRAMS
+  src/python_node/ros2_node_compute_init.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 ament_package()
 
