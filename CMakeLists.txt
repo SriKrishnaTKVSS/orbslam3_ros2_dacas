@@ -75,8 +75,14 @@ ament_target_dependencies(realsense_publisher rclcpp sensor_msgs cv_bridge)
 install(TARGETS realsense_publisher
         DESTINATION lib/${PROJECT_NAME})
 #------------------------------------------
+#---------- for ros2 tf_publish node --------
+add_executable(tf_publish_RLU2MOCAP src/tf_publish/tf_publish.cpp)
+#target_link_libraries(tf_publish_RLU2MOCAP realsense2::realsense2 ${OpenCV_LIBRARIES})
+ament_target_dependencies(tf_publish_RLU2MOCAP rclcpp tf2_ros sensor_msgs cv_bridge)
 
-
+install(TARGETS tf_publish_RLU2MOCAP
+        DESTINATION lib/${PROJECT_NAME})
+#---------------------------------------------
 
 add_executable(rgbd
   src/rgbd/rgbd.cpp
